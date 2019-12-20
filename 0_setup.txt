@@ -1,0 +1,23 @@
+1. Inisialisasi nodejs project
+    $ npm init
+
+2. Install next, react & react-dom
+    $ npm i next react react-dom
+
+3. On package.json, change scripts value:
+    {
+        "scripts": {
+            "dev": "next",
+            "build": "next build",
+            "start": "next start"
+        }
+    }
+
+4. Create folder "pages" with an "index.js":
+    export default () => (
+        <h1>Hello World!</h1>
+    )
+
+5. run server (it will run at localhost:3000)
+    $ npm run dev
+
